@@ -1,0 +1,19 @@
+{
+    "_comment": "This is a fork of the AGiXT AI Module",
+
+  
+    "chain_name": "Create Meme",
+    "steps": [
+        {
+            "step": 1,
+            "agent_name": "Olga",
+            "prompt_type": "Command",
+            "prompt": {
+                "command_name": "Generate a Meme",
+                "user_agent": "{agent_name}",
+                "helper_agent": "{helper_agent_name}",
+                "task_in_question": "{user_input}"
+            }
+        }
+    ]
+}
